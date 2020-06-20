@@ -19,6 +19,7 @@ class WelcomeController extends Controller
 	public function index(){
 		return view('home.index')->with('categories',Freelancercategory::all());
 	}
+
 	public function about(){
 		return view('home.about');
 	}
@@ -46,6 +47,7 @@ class WelcomeController extends Controller
 	public function privacyPolicy(){
 		return view('home.privacyPolicy');
 	}
+
 	public function searchDrug(Request $request){
 		$search=$request->input('term');
 		$drugs=CentralDrug::where('generic_name','LIKE',"%{$search}%")->get();
@@ -58,6 +60,7 @@ class WelcomeController extends Controller
 			return response()->json($arr_result);
 		}
 	}
+
 
 
 	public function searchTest(Request $request){

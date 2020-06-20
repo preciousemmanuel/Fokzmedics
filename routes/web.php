@@ -24,6 +24,7 @@
 
 Route::get('/','WelcomeController@index')->name('index');
 
+
 Route::get('/about','WelcomeController@about')->name('home.about');
 Route::get('/how-it-works','WelcomeController@howWork')->name('home.howWork');
 Route::get('/faq','WelcomeController@faq')->name('home.faq');

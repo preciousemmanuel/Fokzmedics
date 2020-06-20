@@ -210,6 +210,7 @@
 				<div class="col-lg-3 col-md-4">
 					<h5>About</h5>
 					<ul class="links">
+
 						<li><a href="about">Company profile</a></li>
 						<li><a href="how-it-works">How Referral works</a></li>
 						<li><a href="faq">Frequently Asked Questions</a></li>
@@ -219,12 +220,18 @@
 					
 						<li><a href="return-policy">Return policy</a></li>
 						<li><a href="disclaimer">Disclaimer</a></li>
+
+						<li><a href="about">About us</a></li>
+						<li><a href="how-it-works">How it works</a></li>
+						<li><a href="return-policy">Return policy</a></li>
+
 						
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-4">
 					<h5>Useful links</h5>
 					<ul class="links">
+
 						<li><a href="/blog/">Blog</a></li>
 					    <li><a href="register">Register as a Client</a></li>
 						<li><a href="register">Register as a Doctor</a></li>
@@ -232,22 +239,38 @@
 						<li><a href="register">Register as a Partner</a></li>
 						<li><a href="register">Register as a Freelance Pharmacist</a></li>
 						
+
+						<li><a href="{{route('register')}}r">Join as our platform</a></li>
+						<li><a href="{{route('doctors')}}">Doctors Career</a></li>
+
 						
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-4">
 					<h5>Contact with Us</h5>
 					<ul class="contacts">
+
 						<li><a href="tel://+ 234 81 564 689 00"><i class="icon_mobile"></i> +  234 81 564 689 00</a></li>
 						<li><a href="mailto:help@fokzmedics.com"><i class="icon_mail_alt"></i> help@fokzmedics.com</a></li>
+
+						<li><a href="tel://61280932400"><i class="icon_mobile"></i> + 234 80 000 000 00</a></li>
+						<li><a href="mailto:info@fokzmedics.com"><i class="icon_mail_alt"></i> info@fokzmedics.com</a></li>
+
 					</ul>
 					<div class="follow_us">
 						<h5>Follow us</h5>
 						<ul>
+
 							<li><a href="https://www.facebook.com/fokzmedic"target="null"><i class="social_facebook"></i></a></li>
 						<li><a href="https://twitter.com/fokzmedics"target="null"><i class="social_twitter"></i></a></li>
 						<li><a href="https://www.youtube.com/results?search_query=fokzmedics" target="null"><i class="social_youtube"></i></a></li>
 							<li><a href="https://www.instagram.com/fokzmedics/"target="null"><i class="social_instagram" ></i></a></li>
+
+							<li><a href="#0"><i class="social_facebook"></i></a></li>
+							<li><a href="#0"><i class="social_twitter"></i></a></li>
+							<li><a href="#0"><i class="social_linkedin"></i></a></li>
+							<li><a href="#0"><i class="social_instagram"></i></a></li>
+
 						</ul>
 					</div>
 				</div>
@@ -298,6 +321,7 @@ every day for 365 days when you refer a patient or a doctor or a pharmacist.</h6
       </div>
     </div>
 
+
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -311,6 +335,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
     
 	<!-- COMMON SCRIPTS -->
 	
